@@ -2,7 +2,7 @@
 
 **AWS Core Services**
 
-This repository demonstrates a concise, reproducible serverless data-processing pipeline on AWS: ingest CSV files into S3, automatically clean and filter them using Lambda, catalog the processed data with Glue so it can be queried using Athena, and present query results on a simple EC2-hosted web dashboard. Below each step, you will find a brief explanation of *what* the step accomplishes, a precise *approach* to complete it, and related screenshots.
+This repository demonstrates a concise, reproducible serverless data-processing pipeline on AWS: ingest CSV files into S3, automatically clean and filter them using Lambda, catalog the processed data with Glue so it can be queried using Athena, and present query results on a simple EC2-hosted web dashboard. Below each step, you will find a brief explanation of *what* the step accomplishes, a precise *approach* to complete it, and related screenshots (wherever applicable) .
 
 Prerequisites
 - An AWS account with permissions to create S3, Lambda, IAM roles, Glue, Athena, and EC2 resources.
