@@ -258,9 +258,9 @@ The web application script fetches Athena data dynamically and displays results 
 2.  Copy and paste your Python web application code (`EC2InstanceNANOapp.py`) into the editor.
 
 3.  ‼️ **Important**: Update the placeholder variables at the top of the script (The below shown values are according to my setup):
-    * `AWS_REGION`: us-east-2 (e.g., `us-east-1`).
-    * `ATHENA_DATABASE`: orders_db (e.g., `orders_db`).
-    * `S3_OUTPUT_LOCATION`: s3://cloudassignmentsudeepta/enriched/ (e.g., `s3://your-athena-results-bucket/`).
+    * `AWS_REGION`: us-east-2 
+    * `ATHENA_DATABASE`: orders_db 
+    * `S3_OUTPUT_LOCATION`: s3://cloudassignmentsudeepta/enriched/ 
 
 4.  Save the file and exit `nano` by pressing `Ctrl + X`, then `Y`, then `Enter`.
 
